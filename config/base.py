@@ -9,6 +9,8 @@ import json
 import os
 import pathlib
 import re
+import sys
+sys.path.append("/home/codespace/WeVoteServer3.5/WeVoteServer/lib/python3.8/site-packages/")
 from django.core.exceptions import ImproperlyConfigured
 from django.db import connection
 
